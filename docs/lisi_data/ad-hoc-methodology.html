@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html  lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Metodología AD-HOC</title>
+    
+      <link rel="stylesheet" href="../_static/pygments.css">
+      <link rel="stylesheet" href="../_static/theme.css">
+      <link rel="stylesheet" href="../_static/sphinx_press_theme.css">
+      
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+
+      <!-- sphinx script_files -->
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+
+      
+      <script src="../_static/theme-vendors.js"></script>
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Índice" href="../genindex.html" />
+  <link rel="search" title="Búsqueda" href="../search.html" />
+  <link rel="prev" title="CITADINE" href="inicio.html" /> 
+  </head>
+
+  <body>
+    <div id="app" class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">CITADINE</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Búsqueda rápida</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Búsqueda" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#citadine-documentacion">citadine - documentación</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 "><a href="inicio.html" class="reference internal ">CITADINE</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Metodología AD-HOC</a>
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#identifacion-de-los-stakeholders" class="reference internal">Identifación de los Stakeholders</a></li>
+                
+                  <li class="toctree-l2"><a href="#vision" class="reference internal">Vision</a></li>
+                
+                  <li class="toctree-l2"><a href="#objetivos" class="reference internal">Objetivos</a></li>
+                
+                  <li class="toctree-l2"><a href="#areas" class="reference internal">Áreas</a></li>
+                
+                  <li class="toctree-l2"><a href="#historias-de-usuario" class="reference internal">Historias de Usuario</a></li>
+                
+                  <li class="toctree-l2"><a href="#especificacion-de-historias-de-usuario" class="reference internal">Especificación de Historias de Usuario</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>Metodología AD-HOC</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="inicio.html"
+       title="capítulo anterior">← CITADINE</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main">
+            
+  <div class="section" id="metodologia-ad-hoc">
+<h1>Metodología AD-HOC<a class="headerlink" href="#metodologia-ad-hoc" title="Enlazar permanentemente con este título">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/AD_HOC.jpg"><img alt="../_images/AD_HOC.jpg" class="align-center" src="../_images/AD_HOC.jpg" style="width: 864.0px; height: 486.0px;" /></a>
+<div class="section" id="identifacion-de-los-stakeholders">
+<h2>Identifación de los Stakeholders<a class="headerlink" href="#identifacion-de-los-stakeholders" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Se aprecian los siguientes Stakeholders:</p>
+<div class="section" id="stakeholders">
+<h3>Stakeholders<a class="headerlink" href="#stakeholders" title="Enlazar permanentemente con este título">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 28%" />
+<col style="width: 15%" />
+<col style="width: 51%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>N°</strong></p></td>
+<td><p><strong>Nombre</strong></p></td>
+<td><p><strong>Tipo</strong></p></td>
+<td><p><strong>Observaciones</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>01</p></td>
+<td><p>Alumnos</p></td>
+<td><p>Usuarios</p></td>
+<td><p>Quieren conocer acerca de desastres naturales</p></td>
+</tr>
+<tr class="row-odd"><td><p>02</p></td>
+<td><p>Profesores</p></td>
+<td><p>Usuarios</p></td>
+<td><p>Quieren conocer acerca de desastres naturales</p></td>
+</tr>
+<tr class="row-even"><td><p>03</p></td>
+<td><p>Planeadores de Ciudad</p></td>
+<td><p>Usuarios</p></td>
+<td><p>Tips acerca de aspectos de desastres naturales</p></td>
+</tr>
+<tr class="row-odd"><td><p>04</p></td>
+<td><p>Org. rel D.N</p></td>
+<td><p>Usuario</p></td>
+<td><p>ej: ONEMI</p></td>
+</tr>
+<tr class="row-even"><td><p>05</p></td>
+<td><p>Investigador</p></td>
+<td><p>Usuario</p></td>
+<td><p>Open Data</p></td>
+</tr>
+<tr class="row-odd"><td><p>06</p></td>
+<td><p>Testigo</p></td>
+<td><p>Usuario</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><p>07</p></td>
+<td><p>Observador</p></td>
+<td><p>Usuario</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="vision">
+<h2>Vision<a class="headerlink" href="#vision" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li><p>Sistema de enseñanza para el area de Desastres Naturales.</p></li>
+<li><p>Sistema de apoyo a la toma de deciciones.</p></li>
+<li><p>Sistema de referencia de guias para mejorar la adaptación de buenas prácticas en materia de Desastres Naturales de una ciudad.</p></li>
+<li><p>Sistemas de datos abiertos (open data).</p></li>
+</ul>
+</div>
+<div class="section" id="objetivos">
+<h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li><p>Preveer material acerca de Desastres Naturales con fines de enseñanza tanto para profesores y alumnos.</p></li>
+<li><p>Preveer ejemplos de buenas practicas acerca de Desastres Naturales para mejorar la planeación de ciudades.</p></li>
+<li><p>Proveer información gráfica que permita apoyar el proceso de toma de desiciones relacionadas con la «preaparación para Desastres Naturales».</p></li>
+</ul>
+</div>
+<div class="section" id="areas">
+<h2>Áreas<a class="headerlink" href="#areas" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li><p>Ingreso o Captura de Información.</p></li>
+<li><p>Administración</p></li>
+<li><p>Datos Abiertos</p></li>
+<li><p>Enseñanza</p></li>
+<li><p>Buenas Prácticas</p></li>
+<li><p>Visualización de Resultados</p></li>
+</ul>
+</div>
+<div class="section" id="historias-de-usuario">
+<h2>Historias de Usuario<a class="headerlink" href="#historias-de-usuario" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 17%" />
+<col style="width: 10%" />
+<col style="width: 13%" />
+<col style="width: 20%" />
+<col style="width: 15%" />
+<col style="width: 11%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Usuario</strong></p></td>
+<td><p><strong>Captura de Información</strong></p></td>
+<td><p><strong>Enseñanza</strong></p></td>
+<td><p><strong>Buenas Prácticas</strong></p></td>
+<td><p><strong>Visualización de Resultados</strong></p></td>
+<td><p><strong>Administración</strong></p></td>
+<td><p><strong>Open Data</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>Alumnos</p></td>
+<td></td>
+<td><p>✓</p></td>
+<td></td>
+<td><p>✓</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Profesores</p></td>
+<td></td>
+<td><p>✓</p></td>
+<td></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Planeadores de Ciudades</p></td>
+<td></td>
+<td></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+<td></td>
+<td><p>✓</p></td>
+</tr>
+<tr class="row-odd"><td><p>Agencia u Organización</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>✓</p></td>
+<td></td>
+<td><p>✓</p></td>
+</tr>
+<tr class="row-even"><td><p>Investigadores</p></td>
+<td><p>✓</p></td>
+<td></td>
+<td></td>
+<td><p>✓</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Testigos</p></td>
+<td><p>✓</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>✓</p></td>
+<td><p>✓</p></td>
+</tr>
+<tr class="row-even"><td><p>Observador</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="especificacion-de-historias-de-usuario">
+<h2>Especificación de Historias de Usuario<a class="headerlink" href="#especificacion-de-historias-de-usuario" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 25%" />
+<col style="width: 23%" />
+<col style="width: 31%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><strong>Id_Usuario</strong></p></td>
+<td><p><strong>Yo como</strong></p></td>
+<td><p><strong>Quiero</strong></p></td>
+<td><p><strong>… de modo que…</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>US1</p></td>
+<td><p>Testigo</p></td>
+<td><p>Documentar mi experiencia
+en un desastre natural.</p></td>
+<td><p>Otros puedan aprender de
+esta experiencia para mejorar
+su preparaciones futuras en D.N</p></td>
+</tr>
+<tr class="row-odd"><td><p>US2</p></td>
+<td><p>Testigo</p></td>
+<td><p>Revisar y recordar mi
+testimonio.</p></td>
+<td><p>Para mejorar o modificar o precisar
+aspectos de la experiencia.</p></td>
+</tr>
+<tr class="row-even"><td><p>US3</p></td>
+<td><p>Profesor</p></td>
+<td><p>Constituir Grupos de
+interes (estudiantes) y
+seleccionar material para
+ellos.</p></td>
+<td><p>Para enseñar acerca de desastres
+naturales.</p></td>
+</tr>
+<tr class="row-odd"><td><p>US4</p></td>
+<td><p>Alumno</p></td>
+<td><p>Revisar mis asignaciones.</p></td>
+<td><p>Para cumplir con las actividades
+asignadas por el profesor.</p></td>
+</tr>
+<tr class="row-even"><td><p>US5</p></td>
+<td><p>Observador</p></td>
+<td><p>Revisar material
+audiovisual (testimonios).</p></td>
+<td><p>Para conocer ya aprender sobre
+desastres naturales.</p></td>
+</tr>
+<tr class="row-odd"><td><p>US6</p></td>
+<td><p>Planeadores de ciudades</p></td>
+<td><p>Revisar material, revisar
+tips y registrar tips.</p></td>
+<td><p>Para aprender y utilizar los tips
+como referencia.</p></td>
+</tr>
+<tr class="row-even"><td><p>US7</p></td>
+<td><p>Agencia u Organización</p></td>
+<td><p>Revisar información
+agrupada y localizada
+(mapa).</p></td>
+<td><p>Apoyar toma de desiciones para
+futuros desastres naturales.</p></td>
+</tr>
+<tr class="row-odd"><td><p>US8</p></td>
+<td><p>Investigadores</p></td>
+<td><p>Obtener datos.</p></td>
+<td><p>Para incluir en una investigación.</p></td>
+</tr>
+<tr class="row-even"><td><p>US9</p></td>
+<td><p>Administrador</p></td>
+<td><p>Revisar, autorizar
+resolver situaciones/
+problemas relacionadas con
+la información del sistema.</p></td>
+<td><p>Apoyar toma de desiciones para
+futuros desastres naturales.</p></td>
+</tr>
+</tbody>
+</table>
+<p>Diagrama Historia de Usuario != Caso de Uso</p>
+<img alt="../_images/US1.jpg" class="align-center" src="../_images/US1.jpg" />
+<img alt="../_images/US2.jpg" class="align-center" src="../_images/US2.jpg" />
+<img alt="../_images/US3.jpg" class="align-center" src="../_images/US3.jpg" />
+<img alt="../_images/US4.jpg" class="align-center" src="../_images/US4.jpg" />
+<img alt="../_images/US5.jpg" class="align-center" src="../_images/US5.jpg" />
+<img alt="../_images/US6.jpg" class="align-center" src="../_images/US6.jpg" />
+<img alt="../_images/US7.jpg" class="align-center" src="../_images/US7.jpg" />
+<img alt="../_images/US8.jpg" class="align-center" src="../_images/US8.jpg" />
+<img alt="../_images/US9.jpg" class="align-center" src="../_images/US9.jpg" />
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="inicio.html"
+       title="capítulo anterior">← CITADINE</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Derechos de autor 2019, Felipe Quezada &amp; Fabián Mariqueo.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a>.
+</div>
+            </div>
+          </div>
+      </page>
+    </div>
+    
+    
+  </body>
+</html>

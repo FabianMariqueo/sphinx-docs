@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  sphinx:
+    build: .
+    volumes:
+      - ./source:/sphinx/source/
+      - ./docs:/sphinx/docs/

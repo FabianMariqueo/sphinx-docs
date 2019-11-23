@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'LISI'
-copyright = u'2019, YO'
-author = u'YO'
+project = 'CITADINE'
+copyright = '2019, Felipe Quezada & Fabián Mariqueo'
+author = 'Felipe Quezada & Fabián Mariqueo'
 
 # The short X.Y version
-version = u''
+version = ''
 # The full version, including alpha/beta/rc tags
-release = u''
+release = ''
 
 
 # -- General configuration ---------------------------------------------------
@@ -59,7 +59,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'es'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -75,7 +75,9 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+#html_theme = 'sphinxjp'
+html_theme = 'press'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -102,7 +104,7 @@ html_static_path = ['lisi_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'LISIdoc'
+htmlhelp_basename = 'CITADINEdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -129,8 +131,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'LISI.tex', u'LISI Documentation',
-     u'YO', 'manual'),
+    (master_doc, 'CITADINE.tex', 'CITADINE Documentation',
+     'Felipe Quezada \\& Fabián Mariqueo', 'manual'),
 ]
 
 
@@ -139,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'lisi', u'LISI Documentation',
+    (master_doc, 'citadine', 'CITADINE Documentation',
      [author], 1)
 ]
 
@@ -150,8 +152,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'LISI', u'LISI Documentation',
-     author, 'LISI', 'One line description of project.',
+    (master_doc, 'CITADINE', 'CITADINE Documentation',
+     author, 'CITADINE', 'One line description of project.',
      'Miscellaneous'),
 ]
 
